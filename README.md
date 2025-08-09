@@ -119,7 +119,7 @@ print("First few Fz theoretical values:", fz_theory[:5])
 Bronte Ciriza D, et al. *Faster and More Accurate Geometrical-Optics Optical Force Calculation Using Neural Networks*. ACS Photonics, 10: 234–241 (2022). [https://doi.org/10.1021/acsphotonics.2c01565](https://doi.org/10.1021/acsphotonics.2c01565)
 
 ```bibtex
-@article{bronte2022otgo,
+@article{bronte2022faster,
   title={Faster and More Accurate Geometrical-Optics Optical Force Calculation Using Neural Networks},
   author={Bronte Ciriza, David and others},
   journal={ACS Photonics},
@@ -135,7 +135,7 @@ Bronte Ciriza D, et al. *Faster and More Accurate Geometrical-Optics Optical For
 Callegari A, et al. *Computational Toolbox for Optical Tweezers in Geometrical Optics*. Journal of the Optical Society of America B, 32: B11–B19 (2015). [https://doi.org/10.1364/JOSAB.32.000B11](https://doi.org/10.1364/JOSAB.32.000B11)
 
 ```bibtex
-@article{callegari2015otgo,
+@article{callegari2015comp,
   title={Computational Toolbox for Optical Tweezers in Geometrical Optics},
   author={Callegari, Agnese and others},
   journal={JOSA B},
