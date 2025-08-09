@@ -2,7 +2,7 @@
 
 ## Overview
 
-This DeepTrackAI repository contains simulated optical force data for a microsphere trapped in an optical tweezer, following the work of [Bronte Ciriza et al., ACS Photonics, 2022](https://doi.org/10.1021/acsphotonics.2c01565). The simulations were generated using the [Optical Tweezers in Geometrical Optics (OTGO)](https://doi.org/10.1364/JOSAB.32.000B11) toolbox by Callegari et al., *JOSA B*, 2015.
+This DeepTrackAI repository contains simulated optical force data for a microsphere trapped in an optical tweezer, following the work of [Bronte Ciriza et al., ACS Photonics, 2022](https://doi.org/10.1021/acsphotonics.2c01565). The simulations were generated using the Optical Tweezers in Geometrical Optics (OTGO) toolbox by [Callegari et al., *JOSA B*, 2015](https://doi.org/10.1364/JOSAB.32.000B11).
 
 ### Summary
 
