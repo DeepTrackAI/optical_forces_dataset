@@ -50,16 +50,13 @@ The dataset contains:
 ---
 
 ## Original Source
-
-- **Title:** Faster and More Accurate Geometrical-Optics Optical Force Calculation Using Neural Networks  
-- **Authors:** David Bronte Ciriza, et al.  
-- **Journal:** ACS Photonics, 10, 234–241 (2022)  
-- **DOI:** [10.1021/acsphotonics.2c01565](https://doi.org/10.1021/acsphotonics.2c01565)
-
-- **Toolbox:** Computational Toolbox for Optical Tweezers in Geometrical Optics (OTGO)  
-- **Authors:** Agnese Callegari, et al.  
-- **Journal:** Journal of the Optical Society of America B, 32, B11–B19 (2015)  
-- **DOI:** [10.1364/JOSAB.32.000B11](https://doi.org/10.1364/JOSAB.32.000B11)
+- **Title**: Optical Forces Dataset  
+- **Authors**: David Bronte Ciriza et al.
+- **Source**: This repository  
+- **References**:  
+  - Bronte Ciriza A., et al. *ACS Photonics* 10:234-241 (2022). [DOI: 10.1021/acsphotonics.2c01565](https://doi.org/10.1021/acsphotonics.2c01565)  
+  - Callegari A., et al. *JOSA B* 32(5): B11–B19 (2015). [DOI: 10.1364/JOSAB.32.000B11](https://doi.org/10.1364/JOSAB.32.000B11)  
+- **License**: [MIT License](https://opensource.org/licenses/MIT)
 
 If you use this dataset in your research, please follow the licensing requirements and properly attribute the original authors.
 
