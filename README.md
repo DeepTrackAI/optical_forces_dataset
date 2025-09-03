@@ -81,10 +81,7 @@ git clone https://github.com/DeepTrackAI/optical_forces_dataset.git
 cd optical_forces_dataset
 ```
 
----
-
-## Usage Example
-
+### Usage Example
 ```python
 import numpy as np
 
