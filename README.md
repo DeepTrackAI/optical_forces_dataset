@@ -20,35 +20,6 @@ The dataset contains:
 
 ---
 
-## Dataset Structure
-
-- **`fz_vs_z_theory.txt`**  
-  Two columns:  
-  1. z-position (μm)  
-  2. Theoretical z-component of the optical force Fz (pN)  
-  These values serve as the **ground truth** for comparison with GO results and ML predictions.
-
-- **`xyz_go_100rays.npy`**  
-  NumPy array (4D) containing the particle positions (x, y, z) where optical forces were calculated.
-
-- **`fxyz_go_100rays.npy`**  
-  NumPy array (4D) containing the corresponding force components (Fx, Fy, Fz) at each position in piconewtons.
-
-- **`sphere_100rays/`**  
-  Contains approximately **10⁵** optical force data points simulated via OTGO.  
-  - Data is split into 101 files: `force_grid_3D=1.txt`, `force_grid_3D=2.txt`, …  
-  - Each file contains rows of eight numbers:  
-    ```
-    R  np  x  y  z  fx  fy  fz
-    ```
-    where:  
-    - **R**: particle radius in meters  
-    - **np**: particle refractive index  
-    - **x, y, z**: particle position in meters  
-    - **fx, fy, fz**: optical force components in newtons  
-
----
-
 ## Original Source
 - **Title**: Optical Forces Dataset  
 - **Authors**: David Bronte Ciriza et al.
@@ -74,6 +45,31 @@ If you use this dataset in your research, please follow the licensing requiremen
     ├── force_grid_3D=2.txt
     └── ...
 ```
+
+- `fz_vs_z_theory.txt`
+  Two columns:  
+  1. z-position (μm)  
+  2. Theoretical z-component of the optical force Fz (pN)  
+  These values serve as the ground truth for comparison with GO results and ML predictions.
+
+- `xyz_go_100rays.npy`
+  NumPy array (4D) containing the particle positions (x, y, z) where optical forces were calculated.
+
+- `fxyz_go_100rays.npy`
+  NumPy array (4D) containing the corresponding force components (Fx, Fy, Fz) at each position in piconewtons.
+
+- `sphere_100rays/`  
+  Contains approximately **10⁵** optical force data points simulated via OTGO.  
+  - Data is split into 101 files: `force_grid_3D=1.txt`, `force_grid_3D=2.txt`, …  
+  - Each file contains rows of eight numbers:  
+    ```
+    R  np  x  y  z  fx  fy  fz
+    ```
+    where:  
+    - **R**: particle radius in meters  
+    - **np**: particle refractive index  
+    - **x, y, z**: particle position in meters  
+    - **fx, fy, fz**: optical force components in newtons  
 
 ---
 
