@@ -6,8 +6,8 @@ This DeepTrackAI repository contains simulated optical force data for a microsph
 
 ### Summary
 The dataset contains:
-- **Theoretical** optical forces along the z-axis (exact analytical solution).
-- **Geometrical optics (GO) approximation** results with 100 rays.
+- Theoretical optical forces along the z-axis (exact analytical solution).
+- Geometrical optics (GO) approximation results with 100 rays.
 
 ### Experimental parameters
 - Laser power (**P**): 5 mW  
@@ -24,10 +24,10 @@ The dataset contains:
 - **Title**: Optical Forces Dataset  
 - **Authors**: David Bronte Ciriza et al.
 - **Source**: This repository  
-- **References**:  
+- **Reference articles**:  
   - Bronte Ciriza A., et al. *ACS Photonics* 10:234-241 (2022). [DOI: 10.1021/acsphotonics.2c01565](https://doi.org/10.1021/acsphotonics.2c01565)  
   - Callegari A., et al. *JOSA B* 32(5): B11–B19 (2015). [DOI: 10.1364/JOSAB.32.000B11](https://doi.org/10.1364/JOSAB.32.000B11)  
-- **License**: [MIT License](https://opensource.org/licenses/MIT)
+- **License**: [MIT](https://opensource.org/licenses/MIT)
 
 If you use this dataset in your research, please follow the licensing requirements and properly attribute the original authors.
 
@@ -100,31 +100,34 @@ print("First few Fz theoretical values:", fz_theory[:5])
 
 ## Attribution
 
-### Cite the dataset original paper:
-Bronte Ciriza D, et al. *Faster and More Accurate Geometrical-Optics Optical Force Calculation Using Neural Networks*. ACS Photonics, 10: 234–241 (2022). [https://doi.org/10.1021/acsphotonics.2c01565](https://doi.org/10.1021/acsphotonics.2c01565)
+If you use this dataset, please cite the reference articles.
+
+### Cite the dataset reference article:
+Bronte Ciriza D, et al. *Faster and More Accurate Geometrical-Optics Optical Force Calculation Using Neural Networks*. ACS Photonics, 10: 234–241 (2022). [DOI: 10.1021/acsphotonics.2c01565](https://doi.org/10.1021/acsphotonics.2c01565)
 
 ```bibtex
 @article{bronte2022faster,
   title={Faster and More Accurate Geometrical-Optics Optical Force Calculation Using Neural Networks},
-  author={Bronte Ciriza, David and others},
+  author={Bronte Ciriza, David and Magazz{\`u}, Alessandro and Callegari, Agnese and Barbosa, Gunther and Neves, Antonio AR and Iat{\`\i}, Maria Antonia and Volpe, Giovanni and Marag{\`o}, Onofrio M},
   journal={ACS Photonics},
   volume={10},
   pages={234--241},
   year={2022},
-  publisher={ACS},
+  publisher = {American Chemical Society},
   doi={10.1021/acsphotonics.2c01565}
 }
 ```
 
-### Cite the toolbox original paper:
-Callegari A, et al. *Computational Toolbox for Optical Tweezers in Geometrical Optics*. Journal of the Optical Society of America B, 32: B11–B19 (2015). [https://doi.org/10.1364/JOSAB.32.000B11](https://doi.org/10.1364/JOSAB.32.000B11)
+### Cite the toolbox reference article:
+Callegari A, et al. *Computational Toolbox for Optical Tweezers in Geometrical Optics*. Journal of the Optical Society of America B, 32: B11–B19 (2015). [DOI: 10.1364/JOSAB.32.000B11](https://doi.org/10.1364/JOSAB.32.000B11)
 
 ```bibtex
 @article{callegari2015comp,
   title={Computational Toolbox for Optical Tweezers in Geometrical Optics},
-  author={Callegari, Agnese and others},
-  journal={JOSA B},
+  author={Callegari, Agnese and Mijalkov, Mite and G{\"o}k{\"o}z, A Burak and Volpe, Giovanni},
+  journal = {Journal of the Optical Society of America B},
   volume={32},
+  number={5},
   pages={B11--B19},
   year={2015},
   publisher={Optica},
@@ -136,5 +139,4 @@ Callegari A, et al. *Computational Toolbox for Optical Tweezers in Geometrical O
 
 ## License
 
-This repository is released under the **MIT License**.  
-You are free to use, modify, and distribute this work, provided that you include the original license notice and attribution.
+This repository is shared under the [MIT License](https://opensource.org/licenses/MIT).
